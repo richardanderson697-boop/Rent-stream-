@@ -1,0 +1,6 @@
+# Core folder structure
+iwantocreate/
+├── backend/          # Node.js, Express, Sequelize, TypeScript
+├── frontend/         # React Native (CLI), Zustand, Axios
+├── docs/             # API Documentation & Wireframes
+└── scripts/          # Deployment & Automation scripts
