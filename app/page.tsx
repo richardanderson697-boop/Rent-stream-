@@ -1,18 +1,58 @@
 export default function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100">
-      <div className="max-w-2xl mx-auto px-4 text-center">
-        <h1 className="text-4xl font-bold text-slate-900 mb-4">
+    <div style={{
+      minHeight: '100vh',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      background: 'linear-gradient(to bottom right, #f8fafc, #f1f5f9)',
+    }}>
+      <div style={{
+        maxWidth: '42rem',
+        margin: '0 auto',
+        padding: '0 1rem',
+        textAlign: 'center',
+      }}>
+        <h1 style={{
+          fontSize: '2.25rem',
+          fontWeight: 700,
+          color: '#0f172a',
+          marginBottom: '1rem',
+        }}>
           Welcome to Rent Stream
         </h1>
-        <p className="text-lg text-slate-600 mb-8">
+        <p style={{
+          fontSize: '1.125rem',
+          color: '#475569',
+          marginBottom: '2rem',
+        }}>
           AI-powered rental property management platform
         </p>
-        <div className="flex gap-4 justify-center">
-          <button className="px-6 py-3 bg-slate-900 text-white rounded-lg hover:bg-slate-800 transition-colors">
+        <div style={{
+          display: 'flex',
+          gap: '1rem',
+          justifyContent: 'center',
+        }}>
+          <button style={{
+            padding: '0.75rem 1.5rem',
+            background: '#0f172a',
+            color: 'white',
+            borderRadius: '0.5rem',
+            border: 'none',
+            cursor: 'pointer',
+            fontSize: '1rem',
+          }}>
             Get Started
           </button>
-          <button className="px-6 py-3 border border-slate-300 text-slate-700 rounded-lg hover:bg-slate-50 transition-colors">
+          <button style={{
+            padding: '0.75rem 1.5rem',
+            background: 'white',
+            color: '#334155',
+            borderRadius: '0.5rem',
+            border: '1px solid #cbd5e1',
+            cursor: 'pointer',
+            fontSize: '1rem',
+          }}>
             Learn More
           </button>
         </div>
